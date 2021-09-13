@@ -1,0 +1,23 @@
+package helloRyan;
+
+import java.util.Scanner;  //import scanner class
+
+public class helloRyan {
+
+	public static void main(String[] args) 
+	{
+
+
+		//Name				Ryan
+		//IDE				Eclipse
+    // Just playing with Java
+
+			Scanner s = new Scanner(System.in);
+				System.out.print("Please Enter Your Name: "); //Print the instruction prompt
+				String name = s.nextLine(); //Read user input as a one line string.
+				System.out.println("Hello "+ name + "!"); //Print out your message.
+		}
+	}
+
+
+
